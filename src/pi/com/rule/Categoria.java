@@ -13,7 +13,7 @@ public class Categoria {
 		else if (tipo == 3)
 			categoria ="palestra";
 		else if (tipo == 4)
-			categoria ="Visita Técnica";
+			categoria ="Visita TÃ©cnica";
 		else if (tipo == 5)
 			categoria ="Trabalho Voluntario";
 		else
@@ -22,4 +22,5 @@ public class Categoria {
 		
 		return categoria; 
 	}
+	
 }
