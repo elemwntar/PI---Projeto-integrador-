@@ -27,5 +27,4 @@ public abstract class Pessoa implements MetodosPessoa {
 
 		return this.listaDeAtividades;
 	}
-
 }
