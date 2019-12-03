@@ -15,5 +15,4 @@ public enum EstadoAtividade {
 	public String getEstadoNome() {
 		return state;
 	}
-	
 }
