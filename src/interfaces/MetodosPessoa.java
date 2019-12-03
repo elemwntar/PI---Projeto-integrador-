@@ -15,4 +15,5 @@ public  interface  MetodosPessoa {
 		public void setCelular(String a);
 		public void EditarNome();
 		
+	
 }
