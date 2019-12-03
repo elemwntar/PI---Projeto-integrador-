@@ -57,5 +57,4 @@ public class Grupo {
 		Autenticador[] autenticadores;
 
 	}
-
 }
