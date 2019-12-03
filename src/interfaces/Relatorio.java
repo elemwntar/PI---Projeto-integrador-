@@ -11,7 +11,7 @@ public class Relatorio {
 
 	public void imprimaRelatorios(Pessoa p) {
 
-		System.out.println("\nRelatório ****** ");
+		System.out.println("\nRelatÃ³rio ****** ");
 		System.out.println("Nome Estudante: " + p.getNome());
 
 		if (p instanceof Estudante) {
@@ -21,8 +21,8 @@ public class Relatorio {
 
 				for (Atividade tmp : lista) {
 					System.out.println("****** ");
-					System.out.println("Nome da atividade: " + tmp.getNomeAtividade() + "\nDescrição: "
-							+ tmp.getDescricao() + "\nDuração: " + tmp.getDuracao() + "\nData de conclusao: "
+					System.out.println("Nome da atividade: " + tmp.getNomeAtividade() + "\nDescriÃ§Ã£o: "
+							+ tmp.getDescricao() + "\nDuraÃ§Ã£o: " + tmp.getDuracao() + "\nData de conclusao: "
 							+ tmp.getDataCadastro() + tmp.getdataAvaliacao()
 							+ "Estado da Atividade:" + tmp.getState());
 				}
@@ -38,15 +38,13 @@ public class Relatorio {
 
 				for (Atividade tmp : lista) {
 					System.out.println("****** ");
-					System.out.println("Nome da atividade: " + tmp.getNomeAtividade() + "\nDescrição: "
-							+ tmp.getDescricao() + "\nDuração: " + tmp.getDuracao()+ "\nData de Aprovacao: " + tmp.getDataAprovacao()
+					System.out.println("Nome da atividade: " + tmp.getNomeAtividade() + "\nDescriÃ§Ã£o: "
+							+ tmp.getDescricao() + "\nDuraÃ§Ã£o: " + tmp.getDuracao()+ "\nData de Aprovacao: " + tmp.getDataAprovacao()
 							+ "Estado da Atividade:" + tmp.getState());
 				}
 			} else {
 				System.out.println("Nenhuma Atividade cadastrada!");
 			}
 		}
-
 	}
-
 }
